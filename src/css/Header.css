@@ -1,13 +1,20 @@
+
 .header{
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #131921;
+    background-color: black;
     position: sticky;
     top: 0;
     z-index: 100;
+    text-decoration:none;
 }
-
+.h1 {
+    padding: 20px;
+    color: #f2ef00;
+    text-decoration:none;
+    font-family: "Harabara Mais Demo"
+}
 .header__logo{
     width: 100px;
     object-fit: contain;
@@ -30,19 +37,22 @@
 .header__searchIcon{
     padding: 5px;
     height: 22px;
-    background-color: #cd9042;
+    background-color: #f2ef00;
 }
 .header__optionLineOne{
     font-size: 10px;
+    font-family: "Harabara Mais Demo"
 }
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+    font-family: "Harabara Mais Demo"
+    
 }
 .header__optionBasket{
     display: flex;
     align-items: center;
-    color: white;
+    color: #f2ef00;
 }
 .header__basketCount{
     margin-left: 10px;

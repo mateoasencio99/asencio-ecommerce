@@ -8,6 +8,7 @@ import { useStateValue } from "../StateProvider";
 import { auth } from "../firebase";
 
 
+
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
 
@@ -19,11 +20,8 @@ function Header() {
 
   return (
     <div className="header">
-      <Link to="/">
-        <img
-          className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-        />
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <h1 className="h1">AsencioStore</h1>
       </Link>
 
       <div className="header__search">
@@ -32,14 +30,14 @@ function Header() {
       </div>
 
       <div className="header__nav">
-        <Link to={!user && '/login'}>
+        <Link to={!user && '/login'} style={{ textDecoration: 'none' }}> 
           <div onClick={handleAuthenticaton} className="header__option">
             <span className="header__optionLineOne">Hello {!user ? 'Guest' : user.email}</span>
             <span className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
           </div>
         </Link>
 
-        <Link to='/orders'>
+        <Link to='/orders' style={{ textDecoration: 'none' }}>
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>
@@ -52,7 +50,7 @@ function Header() {
           <span className="header__optionLineTwo">Prime</span>
         </div>
 
-        <Link to="/checkout">
+        <Link to="/checkout" style={{ textDecoration: 'none' }}>
           <div className="header__optionBasket">
             <ShoppingBasketIcon />
             <span className="header__optionLineTwo header__basketCount">
