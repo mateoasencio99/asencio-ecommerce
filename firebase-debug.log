@@ -1,0 +1,79 @@
+[debug] [2022-07-18T17:31:46.905Z] ----------------------------------------------------------------------
+[debug] [2022-07-18T17:31:46.907Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruno\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-18T17:31:46.907Z] CLI Version:   11.2.2
+[debug] [2022-07-18T17:31:46.907Z] Platform:      win32
+[debug] [2022-07-18T17:31:46.908Z] Node Version:  v16.15.1
+[debug] [2022-07-18T17:31:46.908Z] Time:          Mon Jul 18 2022 14:31:46 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-07-18T17:31:46.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-18T17:31:46.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-18T17:31:46.916Z] > authorizing via signed-in user (mateoasencio99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bruno\Desktop\asencio-ecommerce\asencio-ecommerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-07-18T17:36:16.435Z] ----------------------------------------------------------------------
+[debug] [2022-07-18T17:36:16.436Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruno\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-18T17:36:16.437Z] CLI Version:   11.2.2
+[debug] [2022-07-18T17:36:16.437Z] Platform:      win32
+[debug] [2022-07-18T17:36:16.437Z] Node Version:  v16.15.1
+[debug] [2022-07-18T17:36:16.438Z] Time:          Mon Jul 18 2022 14:36:16 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-07-18T17:36:16.438Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-18T17:36:16.445Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-18T17:36:16.446Z] > authorizing via signed-in user (mateoasencio99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bruno\Desktop\asencio-ecommerce\asencio-ecommerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-18T17:36:37.261Z] > refreshing access token with scopes: []
+[debug] [2022-07-18T17:36:37.264Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-07-18T17:36:37.264Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-18T17:36:37.527Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-07-18T17:36:37.527Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-18T17:36:37.613Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-07-18T17:36:38.883Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-07-18T17:36:38.883Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project asencio-ecommerce (asencio-ecommerce) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
