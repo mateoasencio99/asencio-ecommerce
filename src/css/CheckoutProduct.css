@@ -9,11 +9,13 @@
 }
 
 .checkoutProduct__info > button{
-    background: #f0c14b;
+    background: #f2ef00;
     border: 1px solid;
+    border-radius: 15px;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    font-family: "Harabara Mais Demo"
 }
 .checkoutProduct__image{
     object-fit: contain;
