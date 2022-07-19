@@ -10,6 +10,7 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    font-weight: 700;
 }
 .product > img{
     max-height: 200px;
@@ -18,14 +19,18 @@
     margin-bottom: 15px;
 }
 .product > button{
-    background: #f2ef00;
+    background: #fffb27;
     border: 1px solid;
     border-radius: 15px;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
-    font-family: "Harabara Mais Demo"
+    font-weight: 700;
+    cursor: pointer;
 
+}
+.product > button:hover{
+    background-color:#fffc4f ;
 }
 .product__rating{
     display: flex;
@@ -33,9 +38,10 @@
 .product__price{
     margin-top: 5px;
 }
+
 .product__info{
     text-align: start;
     height: 100px;
     margin-bottom: 15px;
-    font-family: "Harabara Mais Demo"
+    
 }

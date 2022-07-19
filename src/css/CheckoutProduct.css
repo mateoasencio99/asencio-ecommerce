@@ -15,7 +15,11 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
-    font-family: "Harabara Mais Demo"
+    cursor: pointer;
+    font-weight: 700;
+}
+.checkoutProduct__info > button:hover{
+    background-color:#fffc4f ;
 }
 .checkoutProduct__image{
     object-fit: contain;

@@ -21,7 +21,7 @@ function Header() {
   return (
     <div className="header">
       <Link to="/" style={{ textDecoration: 'none' }}>
-        <h1 className="h1">AsencioStore</h1>
+        <h1 className="h1" style={{fontFamily: 'Harabara Mais Demo.otf'}}>AsencioStore</h1>
       </Link>
 
       <div className="header__search">
